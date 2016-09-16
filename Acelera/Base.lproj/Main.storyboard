@@ -400,8 +400,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.1647058824" green="0.4431372549" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="x8Q-B3-0Oo">
-                                <rect key="frame" x="20" y="339" width="264" height="45"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="x8Q-B3-0Oo">
+                                <rect key="frame" x="36" y="338" width="264" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.094117647060000004" green="0.19215686269999999" blue="0.46666666670000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="18"/>
