@@ -16,6 +16,10 @@ class DataService {
     private var _BASE_REF = Firebase(url: "\(BASE_URL)")
     private var _USER_REF = Firebase(url: "\(BASE_URL)/users")
     private var _JOKE_REF = Firebase(url: "\(BASE_URL)/jokes")
+    private var _VIAJES_REF = Firebase(url: "\(BASE_URL)/viajes")
+    private var _CHOFERES_REF=Firebase(url: "\(BASE_URL)/choferes")
+    private var _DATOSCHOFERES_REF=Firebase(url: "\(BASE_URL)/DatosChoferes")
+    private var _DATOSUNIDAD_REF=Firebase(url: "\(BASE_URL)/DatosUnidad")
     
     var BASE_REF: Firebase {
         return _BASE_REF
@@ -35,6 +39,22 @@ class DataService {
     
     var JOKE_REF: Firebase {
         return _JOKE_REF
+    }
+    
+    var CHOFERES_REF: Firebase {
+        return _CHOFERES_REF
+    }
+    
+    var VIAJES_REF: Firebase {
+        return _VIAJES_REF
+    }
+    
+    var DATOSCHOFERES_REF: Firebase {
+        return _DATOSCHOFERES_REF
+    }
+    
+    var DATOSUNIDAD_REF: Firebase {
+        return _DATOSUNIDAD_REF
     }
     
     func createNewAccount(uid: String, user: Dictionary<String, String>) {

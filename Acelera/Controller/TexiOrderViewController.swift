@@ -80,7 +80,7 @@ class TexiOrderViewController: UIViewController,MKMapViewDelegate,CLLocationMana
         dateFormatter.dateFormat = "hh:mm"
         annotation.subtitle = dateFormatter.stringFromDate(NSDate())
         
-        self.mapView.
+        
         
             }
     
