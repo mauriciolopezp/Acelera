@@ -95,6 +95,12 @@
 		AC89B10E1D63D159006CC86F /* ProctocolbtnEstado.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89B10D1D63D159006CC86F /* ProctocolbtnEstado.swift */; };
 		ACF672781D635E9D008AB250 /* uiSolicitarViaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF672771D635E9D008AB250 /* uiSolicitarViaje.swift */; };
 		ACF6727A1D638062008AB250 /* uitipopagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF672791D638062008AB250 /* uitipopagoViewController.swift */; };
+		ACFAB29C1D8D4311005195E7 /* Viajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB29B1D8D4311005195E7 /* Viajes.swift */; };
+		ACFAB29E1D8D4836005195E7 /* Chofer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB29D1D8D4836005195E7 /* Chofer.swift */; };
+		ACFAB2A01D8D48E2005195E7 /* DatosChofer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB29F1D8D48E2005195E7 /* DatosChofer.swift */; };
+		ACFAB2A21D8D4D18005195E7 /* DatosFiscales.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB2A11D8D4D18005195E7 /* DatosFiscales.swift */; };
+		ACFAB2A41D8D4DC8005195E7 /* Unidad.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB2A31D8D4DC8005195E7 /* Unidad.swift */; };
+		ACFAB2A61D8D4E4C005195E7 /* Tarifa.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAB2A51D8D4E4C005195E7 /* Tarifa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +217,12 @@
 		AC89B10D1D63D159006CC86F /* ProctocolbtnEstado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProctocolbtnEstado.swift; sourceTree = "<group>"; };
 		ACF672771D635E9D008AB250 /* uiSolicitarViaje.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiSolicitarViaje.swift; sourceTree = "<group>"; };
 		ACF672791D638062008AB250 /* uitipopagoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uitipopagoViewController.swift; sourceTree = "<group>"; };
+		ACFAB29B1D8D4311005195E7 /* Viajes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viajes.swift; sourceTree = "<group>"; };
+		ACFAB29D1D8D4836005195E7 /* Chofer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chofer.swift; sourceTree = "<group>"; };
+		ACFAB29F1D8D48E2005195E7 /* DatosChofer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatosChofer.swift; sourceTree = "<group>"; };
+		ACFAB2A11D8D4D18005195E7 /* DatosFiscales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatosFiscales.swift; sourceTree = "<group>"; };
+		ACFAB2A31D8D4DC8005195E7 /* Unidad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unidad.swift; sourceTree = "<group>"; };
+		ACFAB2A51D8D4E4C005195E7 /* Tarifa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tarifa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +288,7 @@
 		044A74D11CD9D7FC009738B3 /* Acelera */ = {
 			isa = PBXGroup;
 			children = (
+				ACFAB29A1D8D42B7005195E7 /* Data */,
 				52FF22981D0820EA0044B3DB /* Location */,
 				52FF22921D081FB00044B3DB /* AutoCompleteTextField */,
 				52DD76881D02BCE8002EC7C7 /* Loader */,
@@ -622,6 +635,19 @@
 			name = strings;
 			sourceTree = "<group>";
 		};
+		ACFAB29A1D8D42B7005195E7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAB29B1D8D4311005195E7 /* Viajes.swift */,
+				ACFAB29D1D8D4836005195E7 /* Chofer.swift */,
+				ACFAB29F1D8D48E2005195E7 /* DatosChofer.swift */,
+				ACFAB2A11D8D4D18005195E7 /* DatosFiscales.swift */,
+				ACFAB2A31D8D4DC8005195E7 /* Unidad.swift */,
+				ACFAB2A51D8D4E4C005195E7 /* Tarifa.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -807,10 +833,14 @@
 				04EDB7481CE35A5A00D4A8E6 /* MenuTableViewController.swift in Sources */,
 				52FF22911D080BF40044B3DB /* ShareViewController.swift in Sources */,
 				04EFCEB41CDA192D00D79A0D /* TexiOrderViewController.swift in Sources */,
+				ACFAB29C1D8D4311005195E7 /* Viajes.swift in Sources */,
 				52FF22871D07F94B0044B3DB /* TravelLogViewController.swift in Sources */,
+				ACFAB29E1D8D4836005195E7 /* Chofer.swift in Sources */,
+				ACFAB2A01D8D48E2005195E7 /* DatosChofer.swift in Sources */,
 				523048BF1D001C9400E4BD87 /* DataService.swift in Sources */,
 				52DD768A1D02BCFB002EC7C7 /* ARSLineProgress.swift in Sources */,
 				ACF672781D635E9D008AB250 /* uiSolicitarViaje.swift in Sources */,
+				ACFAB2A41D8D4DC8005195E7 /* Unidad.swift in Sources */,
 				047F26EA1CDB4EF4009F11B2 /* LookingCabViewController.swift in Sources */,
 				04EDB74C1CE374E900D4A8E6 /* MenuTableCell.swift in Sources */,
 				52FF229A1D0820EA0044B3DB /* Location.swift in Sources */,
@@ -820,7 +850,9 @@
 				52FF229D1D0836BA0044B3DB /* ForgotPassViewController.swift in Sources */,
 				047F26E41CDB4529009F11B2 /* LoginRegisterViewController.swift in Sources */,
 				044A74D51CD9D7FC009738B3 /* ViewController.swift in Sources */,
+				ACFAB2A61D8D4E4C005195E7 /* Tarifa.swift in Sources */,
 				52FF22941D081FB00044B3DB /* AutoCompleteTextField.swift in Sources */,
+				ACFAB2A21D8D4D18005195E7 /* DatosFiscales.swift in Sources */,
 				04EFCEBE1CDA240100D79A0D /* ArriveViewController.swift in Sources */,
 				047F26E71CDB49D6009F11B2 /* UserInformationViewController.swift in Sources */,
 				04F1A7621CDB76490064C09C /* ConformationViewController.swift in Sources */,

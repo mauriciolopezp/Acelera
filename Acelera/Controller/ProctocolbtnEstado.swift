@@ -8,4 +8,5 @@
 
 protocol buttonPressDelegate {
     func buttonPressed() -> Void
+    func buttonPressDelegate()->Self
 }

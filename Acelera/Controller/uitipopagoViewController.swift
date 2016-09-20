@@ -6,9 +6,11 @@
 //  Copyright © 2016 mac. All rights reserved.
 //
 
+
 import UIKit
 
-class uitipopagoViewController: UIViewController ,buttonPressDelegate{
+
+class uitipopagoViewController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +25,9 @@ class uitipopagoViewController: UIViewController ,buttonPressDelegate{
     
     @IBAction func metodoPago(sender: UIButton) {
       tabBarController?.selectedIndex = 1
+        let muestrabotton: buttonPressDelegate 
+         muestrabotton.buttonPressed()
+        
                 
     }
     
